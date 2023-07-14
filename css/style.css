@@ -1,18 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   
-    }
-html{
+}
+html {
     font-size: 12px;
 }
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:rgb(11, 60, 175);
+    background-color: rgb(11, 60, 175);
     color: rgb(2, 11, 19);
     width: 1000px;
-    }
-img{
+}
+img {
     width: 100%;
     border-radius: 90px;
 }
@@ -20,10 +19,9 @@ img{
     background-color: chocolate;
     color: rgb(255, 255, 255);
     text-align: center;
-    position: sticky;top: 0px;
+    position: sticky;
+    top: 0px;
 }
-
-
 .nav-link {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -33,8 +31,7 @@ img{
     color: rgb(238, 239, 245);
     text-decoration: none;
 }
-
-.header{
+.header {
     margin: 0 auto;
     display: grid;
     padding: 5rem;
@@ -44,32 +41,31 @@ img{
     background-image: url(../Images/hero.jpg);
     background-size: cover;
 }
-
-.header_content{
+.header_content {
     grid-column: 1 / -1;
     margin: 0rem;
 }
-.profile_container{
-    display:flex;
+.profile_container {
+    display: flex;
     gap: 4rem;
 }
 .profile_picture {
     max-width: 250px;
 }
-.profile_name{
+.profile_name {
     color: rgb(255, 255, 255);
-    font-size: clamp(2rem,8vw,4rem);
+    font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
     display: block;
 }
-.profile_surname{
+.profile_surname {
     color: chocolate;
     font-weight: 700;
     font-size: clamp(3rem, 15vw, 7rem);
     text-transform: uppercase;
     display: block;
 }
-.heading_title{
+.heading_title {
     font-weight: 400;
     font-size: 2rem;
     text-transform: uppercase;
@@ -77,16 +73,16 @@ img{
     font-weight: 500;
     margin-top: 1rem;
 }
-.description{
+.description {
     color: rgb(255, 255, 255);
     font-weight: 400;
     font-size: 1rem;
     margin-top: 2rem;
     padding-right: 5rem;
 }
-@media only screen and (max-width: 600px){
-    .profile_container{
-        flex-direction: column;
+@media only screen and (max-width: 600px) {
+    .profile_container {
+    flex-direction: column;
     }
 }
 main {
@@ -97,31 +93,28 @@ main {
     padding: 5rem;
     grid-template-columns: 1fr 1fr;
     color: antiquewhite;
-    
 }
-.pre_title{
+.pre_title {
     margin-top: 3rem;
     color: rgb(255, 255, 255);
-   
 }
-.job_title{
+.job_title {
     margin-top: 1rem;
     color: chocolate;
-   
 }
-.skills_pre_description{
+.skills_pre_description {
     margin-left: 1.5rem;
     margin-top: 3rem;
     line-height: 2;
 }
-.intrest_items{
+.intrest_items {
     margin-top: 3rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
-.intrest_item{
+.intrest_item {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -132,25 +125,24 @@ main {
 .intrest_item svg {
     width: 3rem;
 }
-.job_description{
+.job_description {
     color: chocolate;
     margin-top: 1rem;
     font-weight: 400;
-    font-size: 1.5rem; 
-  
+    font-size: 1.5rem;
 }
-footer{
+footer {
     margin-top: 2rem;
     background-color: chocolate;
     color: whitesmoke;
     text-align: center;
     padding: 2rem;
 }
-.contact{
+.contact {
     margin-top: 1rem;
     line-height: 3;
 }
-.contact_heading_title{
+.contact_heading_title {
     font-weight: 400;
     font-size: 2rem;
     text-transform: uppercase;
@@ -158,50 +150,46 @@ footer{
     font-weight: 500;
     margin-top: 1rem;
 }
-button{
+button {
     box-shadow: 0 0 5px cyan,
-                0 0 2px cyan;
+        0 0 2px cyan;
 }
 button:hover {
     background-color: cyan;
     text-decoration: underline;
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan
 }
-
-.pre_title_socials{
+.pre_title_socials {
     font-weight: 400;
     font-size: 1rem;
     text-transform: uppercase;
     color: rgb(10, 10, 10);
     font-weight: 500;
 }
-.social_items{
+.social_items {
     display: flex;
-flex-direction: row;
-justify-content: center;
-gap: 5rem;  
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
 }
-.social_item{
-    text-decoration: none; 
+.social_item {
+    text-decoration: none;
 }
-.social_items:hover{
+.social_items:hover {
     color: rgb(30, 210, 30);
 }
-
 @media only screen and (min-width: 600px) {
     body {
         background-color: rgb(5, 19, 70);
         width: 100%;
     }
 }
-
 @media only screen and (min-width: 601px) {
     body {
         background-color: rgb(30, 50, 104);
         width: 100%;
     }
 }
-
 @media only screen and (min-width: 768px) {
     body {
         background-color: rgba(17, 91, 74, 0.437);
@@ -214,7 +202,6 @@ gap: 5rem;
         width: 100%;
     }
 }
-
 @media only screen and (min-width: 1200px) {
     body {
         background-color: rgba(29, 91, 17, 0.437);
